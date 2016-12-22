@@ -1,0 +1,26 @@
+<form method="post">
+  <h2>Please sign up</h2>
+  <table>
+    <tr>
+      <td class="lable">Username</td>
+      <td><input type="text" name="username" value="{{username}}"></td>
+      <td style="color:red">{{error_username}}</td>
+    </tr>
+    <tr>
+      <td class="lable">Password</td>
+      <td><input type="password" name="pwd" value=""></td>
+      <td style="color:red">{{error_pwd}}</td>
+    </tr>
+    <tr>
+      <td class="lable">Verify Password</td>
+      <td><input type="password" name="verify_pwd" value=""></td>
+      <td style="color:red">{{error_verify_pwd}}</td>
+    </tr>
+    <tr>
+      <td class="lable">Email</td>
+      <td><input type="text" name="email" value="{{email}}"></td>
+      <td style="color:red">{{error_email}}</td>
+    </tr>
+  </table>
+  <input type="submit" value="Submit">
+</form>
